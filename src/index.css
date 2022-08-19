@@ -11,3 +11,156 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#mintScreen{
+  background-color: purple;
+  contain: content;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+margin-top: auto;
+margin-bottom: auto;
+top:0;
+bottom:0;
+   /* opacity: 50%; */
+  height:65vh;
+    width: 75%;
+   position: absolute;
+   z-index: 2;
+  
+   border-width: 15px;
+   border-color: var(--tertiary-color);
+   border-style: groove;
+   
+   flex-direction: column;
+   display: flex;
+   
+  
+     
+  }
+
+  #cross{
+    height:50px;
+    width: 50px;
+  }
+
+  #firstRow{
+   
+    flex-direction: row;
+    display: flex;
+    height: 50%;
+    width: 100%;
+   
+  }
+
+  #mintShowing{
+
+  }
+
+  #r11{
+    width: 33%;
+    margin-left: 5%;
+  }
+  #r12{
+    width: 17%;
+    
+  }
+  #r13{
+    width: 50%;
+    background-color:pink;
+    margin-right: 5%;
+    border-radius: 5px;
+  }
+
+  #r111{
+    height:100%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+ 
+  }
+
+  #i111{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+
+  #r112{
+    height:50%;
+  
+  }
+
+  #r121{
+    height:50%;
+    background-color: pink;
+    
+  }
+
+  #r122{
+    height:50%;
+    
+    background-color: peachpuff;
+  }
+
+#artistFace{
+ position: absolute;
+ bottom: 40%;
+ font-size:7px;
+ margin-left: 2%;
+}
+
+#belowFace{
+  background-color: black;
+  height:50%;
+ 
+}
+
+#face{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#r21{
+  width: 45%;
+  margin-left: 5%;
+  
+}
+#r22{
+  width: 45%;
+  margin-right: 5%;
+}
+#secondRow{
+  height: 50%;
+  flex-direction: row;
+  display: flex;
+
+}
+
+  #imgContainer{
+    background-color: red;
+    margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+width: 25%;
+height: 100%;
+  }
+
+  #ethereum{
+    font-size: 10px;
+    background-color: gray;
+    text-align: center;
+    height:20%;
+
+  }
+  #solana{
+    font-size: 10px;
+    background-color: turquoise;
+    text-align: center;
+    height:20%;
+  }
+
